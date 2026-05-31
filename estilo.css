@@ -37,12 +37,24 @@ p {
     padding: .5em;
     text-transform: uppercase;
     
-
-   
-    
-
+  
 }
 
+.redes {
+    text-align: center;
+    margin: 20px;
+}
+
+.redes a {
+    font-size: 35px;
+    color: #333;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.redes a:hover {
+    transform: scale(1.2);
+}
 .opcionMenu:hover {
     background-color: #ffffff;
    
